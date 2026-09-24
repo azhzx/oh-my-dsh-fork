@@ -1,0 +1,22 @@
+# Plugins are downloaded and verified by postinstall, never committed.
+node_modules/
+plugins/
+.oh-my-dsh-install*/
+.DS_Store
+*.log
+*.tgz
+*.tar
+*.tar.gz
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+local/
+.dsh/
+web-auth.json
+.credentials.yaml
+.openai-codex-auth.json
+*.local.json

@@ -1,0 +1,40 @@
+{
+  "name": "oh-my-dsh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A curated Web bundle for DeepSeek Harness 0.1.5-rc.3",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "scripts/install-plugins.mjs",
+    "scripts/archive.mjs",
+    "vendor/members.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "dsh-better-sidebar": "0.19.1",
+    "dsh-codex": "0.3.0",
+    "@deepseek-ai/dsh-cmdline": "0.1.5-rc.3",
+    "@deepseek-ai/dsh-credentials": "0.1.5-rc.3",
+    "@deepseek-ai/schemastery": "3.18.1",
+    "commander": "15.0.0",
+    "yaml": "2.8.3"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install-plugins.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "plugins:check": "node scripts/install-plugins.mjs check",
+    "plugins:pin": "node scripts/lock-plugins.mjs repin"
+  }
+}

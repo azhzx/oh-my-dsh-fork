@@ -1,0 +1,32 @@
+# Web-only composition; local plugin sources are pinned in vendor/members.json.
+# A dependency's own dsh.bundle patch is NOT loaded automatically. Preserve
+# these public row ids when changing the composition: user patches may target them.
+# Codex provides a Web model/account option, not the default model or search.
+- insert:
+    - id: llm-openai-codex
+      name: dsh-codex
+    - id: dsh-trusted-page
+      name: ./plugins/dsh-trusted-page/lib/index.js
+    - id: dsh-mobile-upgrade
+      name: ./plugins/dsh-mobile-upgrade/lib/index.js
+
+# dsh-web-startup-auth replaces the stock startup and delays the connection
+# until authentication wraps the server. Keep these overrides with its rows.
+- id: web-startup
+  disabled: true
+- id: connection
+  inject: [webServer, webRuntime, webAuth]
+- insert:
+    - id: dsh-web-startup-auth
+      name: ./plugins/dsh-web-startup-auth/lib/index.js
+    - id: remote-web-startup
+      name: ./plugins/auth-startup/index.js
+    - id: web-auth
+      name: ./plugins/auth-guard/index.js
+
+- insert:
+    - id: mobile-enter-newline
+      name: ./plugins/@jiesou/dsh-webui-fix-mobile-enter-newline/index.mjs
+    - id: better-sidebar
+      name: dsh-better-sidebar
+      disabled: !!js "[...ctx.loader.entries()].some((e) => e.options.name === 'dsh-better-sidebar' && e.options.id !== 'better-sidebar' && !e.disabled)"

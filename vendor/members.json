@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 2,
+  "packages": [
+    {
+      "name": "dsh-trusted-page",
+      "version": "1.1.2",
+      "source": "github:liujuntao123/dsh-trusted-page#6f011ee4d3568e1ef74e7784d6a8cc5aec9a0e24",
+      "runtime": [
+        "lib/index.js",
+        "lib/client.js",
+        "lib/authority.js",
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "path": "AI_INSTALL.md",
+          "sourcePath": "AI_INSTALL.md",
+          "sha256": "22d986afa3ed82d2943e798d44902e15d283a1ccf2b8e64f6ed4d0d600a5ee9f"
+        },
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "d789c8d66809d5eeb4613600abe9b1d596b5972783c6afca079297c87536e718"
+        },
+        {
+          "path": "README.md",
+          "sourcePath": "README.md",
+          "sha256": "1e891cf3f041dc370ff93392f92d6265cc7a103148d71c1f3358fedf3a50f2e3"
+        },
+        {
+          "path": "cordis.patch.yml",
+          "sourcePath": "cordis.patch.yml",
+          "sha256": "2d9c90387e0c8d37f6095f805c916c8ad108a601dd8c95c57553abce397fe9ce"
+        },
+        {
+          "path": "lib/authority.js",
+          "sourcePath": "lib/authority.js",
+          "sha256": "fc5ee703c1211cd19fad103b97252f086ed7c400a7b789a1e2059b293c1a7576"
+        },
+        {
+          "path": "lib/client.js",
+          "sourcePath": "lib/client.js",
+          "sha256": "144b8c73e68bb237db769477dcfed27fdc4f06cdfcc399995b49abee4cc6e853"
+        },
+        {
+          "path": "lib/index.js",
+          "sourcePath": "lib/index.js",
+          "sha256": "534cf402a9303f1ad0eeeacdf0699338c016fd7337e552cfcbdd077e98b968f1"
+        },
+        {
+          "path": "package.json",
+          "sourcePath": "package.json",
+          "sha256": "395fcccad5bd4a35b4597022d21aaa9515182900217a289d0a4a132fe11ef55f"
+        }
+      ],
+      "archiveSha256": "b1facc767c3b7412ec4f3e8576f4e5a57d641315c0c728ea7333a88c8d14ce75"
+    },
+    {
+      "name": "dsh-mobile-upgrade",
+      "version": "0.8.1",
+      "source": "github:KeqingMoe/dsh-mobile-upgrade#1f9a52cb340c64fe85b5d21fef7481f0293381b8",
+      "runtime": [
+        "lib/index.js",
+        "client/client.js",
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "012d79a9b9d9e11a0d293e82ce9f622b3d47e8d8dc4a8eed29d1b59e5561fed7"
+        },
+        {
+          "path": "README.md",
+          "sourcePath": "README.md",
+          "sha256": "b81c8882b7554c33e8827d7ffe0badf3ce54e1f14ee0c639589f9b171bf8dcff"
+        },
+        {
+          "path": "client/client.js",
+          "sourcePath": "client/client.js",
+          "sha256": "6e06ff529bb0114043358b90b202f0b1548bd20fed750eeb26722e62776d2b54"
+        },
+        {
+          "path": "cordis.patch.yml",
+          "sourcePath": "cordis.patch.yml",
+          "sha256": "dac9ce158de3709ebb8074fe66f87a33774eff79db025b0029ddca9f290511c4"
+        },
+        {
+          "path": "docs/de/README.md",
+          "sourcePath": "docs/de/README.md",
+          "sha256": "4738a60688ee91297d8814bf00474c00594d743844d8f85a8ff68af4ab05fad5"
+        },
+        {
+          "path": "docs/es/README.md",
+          "sourcePath": "docs/es/README.md",
+          "sha256": "7b788805077410ab18a956811a97955faf5db4afbc4c1b9488104557360ea577"
+        },
+        {
+          "path": "docs/fr/README.md",
+          "sourcePath": "docs/fr/README.md",
+          "sha256": "e0229b1ef9d022775ccc8ceaeabc37b3d0d87187a1c6be7cf29d305e5f0d7652"
+        },
+        {
+          "path": "docs/i18n.yaml",
+          "sourcePath": "docs/i18n.yaml",
+          "sha256": "93ea2b8426ffd53253e2d8ed593d2e06a2b0fe97256b50dc75ea13a7ec3f61be"
+        },
+        {
+          "path": "docs/ja/README.md",
+          "sourcePath": "docs/ja/README.md",
+          "sha256": "055d65bbf5e89fda071cac67064b4c6a24ea28955d2f8b276e2b028dd98013dc"
+        },
+        {
+          "path": "docs/ko/README.md",
+          "sourcePath": "docs/ko/README.md",
+          "sha256": "d5246782aba62ea5a385de2b76e2a60f24b7d3c3a91e8aa8da3e2741eb497faa"
+        },
+        {
+          "path": "docs/ru/README.md",
+          "sourcePath": "docs/ru/README.md",
+          "sha256": "b85dd534ab9bd3a9e12f0f262f789d05f6a29b79c463dcdf318b7b6120bff34b"
+        },
+        {
+          "path": "docs/zh-Hans/README.md",
+          "sourcePath": "docs/zh-Hans/README.md",
+          "sha256": "0e1a499738b6304b146d603dfb87f49318fb0e56a01419e1034ae56042e76f31"
+        },
+        {
+          "path": "docs/zh-Hant/README.md",
+          "sourcePath": "docs/zh-Hant/README.md",
+          "sha256": "ed719d433b10ff3ad755e97d4a163b8da33fba0e7802936cc5874359bbd62d9d"
+        },
+        {
+          "path": "lib/index.js",
+          "sourcePath": "lib/index.js",
+          "sha256": "1e5f0f6305cbf19628f9e3ec0b51c25352fe290f37476f2e95964a4cd54c2794"
+        },
+        {
+          "path": "package.json",
+          "sourcePath": "package.json",
+          "sha256": "2e026ee3cffb798ab54d19405b2a2e0b58df4bd7fd68da192fdf44a7f6e4551b"
+        },
+        {
+          "path": "res/shot-drawer.png",
+          "sourcePath": "res/shot-drawer.png",
+          "sha256": "46196aacc99b45036378a55086fcc34086f79fddbb5bf6c3ba29b4bb5f5638d8"
+        },
+        {
+          "path": "res/shot-floating-chip.png",
+          "sourcePath": "res/shot-floating-chip.png",
+          "sha256": "cd77773fd9e0a56095cbe63320964a0d25d6bd24266eb7763b2143e607e79807"
+        },
+        {
+          "path": "res/shot-header-collector.png",
+          "sourcePath": "res/shot-header-collector.png",
+          "sha256": "0795b4a7234af06779788bde84fc95728165fbff9e7ecbcb46efcac5ac337280"
+        },
+        {
+          "path": "res/shot-settings-tabs.png",
+          "sourcePath": "res/shot-settings-tabs.png",
+          "sha256": "18d937527fae22199878e6bfcb952be4b3a44e05e0df41957e86513155bf2cc7"
+        }
+      ],
+      "archiveSha256": "df8fde7b25dd31b29dca02cff480c140a358d7413c2998543b1196b39f18267c"
+    },
+    {
+      "name": "dsh-web-startup-auth",
+      "version": "0.1.10",
+      "source": "github:GDWhisper/dsh-web-startup-auth#b6a581c2871a3d3887bd0881c752a4317b01d908",
+      "runtime": [
+        "lib/index.js",
+        "lib/startup.js",
+        "lib/auth.js",
+        "lib/client.js",
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "1d19edffd4a62d96088ce0caf0530f4dc7fc6cc3e97000bd225fb61ef3a56db8"
+        },
+        {
+          "path": "README.en.md",
+          "sourcePath": "README.en.md",
+          "sha256": "9e1d77660b18f31cb6c426b0cb591b71e3264ec9eeb194d9ddce0256992d2d38"
+        },
+        {
+          "path": "README.md",
+          "sourcePath": "README.md",
+          "sha256": "26e75f0709900a2f0ad96da8853e6e0fe155117d51cea8e77a3628f4eaed55a9"
+        },
+        {
+          "path": "cordis.patch.yml",
+          "sourcePath": "cordis.patch.yml",
+          "sha256": "cafbe83c6562a987a6a7d524659e69f20ebb465dc40f9519e1139734d0c657ca"
+        },
+        {
+          "path": "lib/auth.js",
+          "sourcePath": "lib/auth.js",
+          "sha256": "2f9327c4e9b27f0b93785a30d6458aef0321c81392d54d26f48b2cadb889019b"
+        },
+        {
+          "path": "lib/client/index.js",
+          "sourcePath": "lib/client/index.js",
+          "sha256": "c15cd413c11282f6491bfc4f850ea281d7856366b4ee114437c21ac208529174"
+        },
+        {
+          "path": "lib/client.js",
+          "sourcePath": "lib/client.js",
+          "sha256": "13868790ef395aac66616537cd614a2409cc21825cc70dd1ea772b951aa758ec"
+        },
+        {
+          "path": "lib/client.js.map",
+          "sourcePath": "lib/client.js.map",
+          "sha256": "08ebd88cb7efd77284db6a3b9bf507b654e21d0d49d387c9bd305ab17a9a7607"
+        },
+        {
+          "path": "lib/credential-store.js",
+          "sourcePath": "lib/credential-store.js",
+          "sha256": "08e586386c1949e0ba2d4052815aa19feab9cccdf356f36337ca2c97778483fd"
+        },
+        {
+          "path": "lib/index.js",
+          "sourcePath": "lib/index.js",
+          "sha256": "e33007c0d3a73c903bdc913eb7786ebeb3eedcd4b00e32c09a2bd79cfaae4494"
+        },
+        {
+          "path": "lib/login-page.js",
+          "sourcePath": "lib/login-page.js",
+          "sha256": "f05fe29b9bcfeb4f75a81a45576f3752539a9539c87f916502cd1faa29fb38fe"
+        },
+        {
+          "path": "lib/session-limits.js",
+          "sourcePath": "lib/session-limits.js",
+          "sha256": "d7d4806508f1246138320782a783cc2add7deed93b4608ba5c740652a97236a4"
+        },
+        {
+          "path": "lib/startup.js",
+          "sourcePath": "lib/startup.js",
+          "sha256": "3101c5e8acf2d149d7560fba9e048290bbc20c49d8f1ca6aaa2d744289985d8e"
+        },
+        {
+          "path": "lib/types/auth.d.ts",
+          "sourcePath": "lib/types/auth.d.ts",
+          "sha256": "a11735b5eea26c4fac40d5eb0e38d81eba87bf3353519a76cf83a8d60876b4bf"
+        },
+        {
+          "path": "lib/types/client/index.d.ts",
+          "sourcePath": "lib/types/client/index.d.ts",
+          "sha256": "7ba14d184a334ca43ac3a61a7c6451c0f1433c650aa843366ddfca5a1d22d8bf"
+        },
+        {
+          "path": "lib/types/credential-store.d.ts",
+          "sourcePath": "lib/types/credential-store.d.ts",
+          "sha256": "bf57c905ab1fe4461b2fda21ecd5b056dded7049d2fa26a668207bca9a635afb"
+        },
+        {
+          "path": "lib/types/index.d.ts",
+          "sourcePath": "lib/types/index.d.ts",
+          "sha256": "c693e2c06667795adcc67b3d4b98b0743bbc108c5cf71492f4e644b8bbf68828"
+        },
+        {
+          "path": "lib/types/login-page.d.ts",
+          "sourcePath": "lib/types/login-page.d.ts",
+          "sha256": "5ba0f4e86da2ab6637e4578b93b2dfa6c7da4eb93489f66ce3d76e942ac8461f"
+        },
+        {
+          "path": "lib/types/session-limits.d.ts",
+          "sourcePath": "lib/types/session-limits.d.ts",
+          "sha256": "b947f4a1647ee28d1091ff085b1096ef6e872eb78eb60f5d680ecc51df8a0b2f"
+        },
+        {
+          "path": "lib/types/startup.d.ts",
+          "sourcePath": "lib/types/startup.d.ts",
+          "sha256": "e5367cd7ce1de442693962ca49d6b477eecb0702382822c0189c49384a7c4c99"
+        },
+        {
+          "path": "package.json",
+          "sourcePath": "package.json",
+          "sha256": "dd19ec1074f6b60c946050a7a1bf360daa4fc2c1477bcee323394b6b44f8d1e9"
+        },
+        {
+          "path": "src/auth.ts",
+          "sourcePath": "src/auth.ts",
+          "sha256": "96e665d42bd9be9151bc722d158cb88258ffa33d5e22f34b041125f17871587d"
+        },
+        {
+          "path": "src/client/index.tsx",
+          "sourcePath": "src/client/index.tsx",
+          "sha256": "0af566c9b690662fe037d6a83985cc8bc56b55c5e111e17dbf1e11982a9771ac"
+        },
+        {
+          "path": "src/credential-store.ts",
+          "sourcePath": "src/credential-store.ts",
+          "sha256": "4fc28dfee05404aa645518a7afac9ed839b38d9cd8bb7c6e2896edf77da70917"
+        },
+        {
+          "path": "src/index.ts",
+          "sourcePath": "src/index.ts",
+          "sha256": "aae933b5cc74bd612e1fcdb6cd43d02c885da656e2a2e59238e248859b761e94"
+        },
+        {
+          "path": "src/login-page.ts",
+          "sourcePath": "src/login-page.ts",
+          "sha256": "2efba30f71c68d11767b7142c3e86737ac3decc45756e0265255991b0061325d"
+        },
+        {
+          "path": "src/session-limits.ts",
+          "sourcePath": "src/session-limits.ts",
+          "sha256": "1adb532b38f50d5a0d75548da3ccf64cd034e482c78e43c2060b59f012d5ab27"
+        },
+        {
+          "path": "src/startup.ts",
+          "sourcePath": "src/startup.ts",
+          "sha256": "8726da623f5fe40855d0dc03f2c69b21536fa4e79941a1b245a57f8fe74b81c1"
+        }
+      ],
+      "archiveSha256": "f09eb0155a83e5f5b8459d5bdf6abad3000a29a28f272c8be61f5de82a146d1e"
+    },
+    {
+      "name": "@jiesou/dsh-webui-fix-mobile-enter-newline",
+      "version": "0.2.0",
+      "source": "github:jiesou/dsh-webui-fix-pack#0237fa16cf48774f2c1705cd75a6386f54898005&path:/plugins/dsh-webui-fix-mobile-enter-newline",
+      "runtime": [
+        "index.mjs",
+        "lib/client.js",
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "54238ea8b84e99f33262e667a21a18156373e8fa372c193130549aa9dcd28826"
+        },
+        {
+          "path": "cordis.patch.yml",
+          "sourcePath": "plugins/dsh-webui-fix-mobile-enter-newline/cordis.patch.yml",
+          "sha256": "0e3c47ed379d028af0ad48022f0309134af0435a56c71d003c9a253c7f9ef0df"
+        },
+        {
+          "path": "index.mjs",
+          "sourcePath": "plugins/dsh-webui-fix-mobile-enter-newline/index.mjs",
+          "sha256": "fb520d5c5c50d303b2cd16996394717743ac88cd88539b1d63f8ef087e973d7f"
+        },
+        {
+          "path": "lib/client.js",
+          "sourcePath": "plugins/dsh-webui-fix-mobile-enter-newline/lib/client.js",
+          "sha256": "aa580f1860d65b37af0feca07fd5cf1d67f3cbc9d17f46d1c1abc64c7b90ea18"
+        },
+        {
+          "path": "package.json",
+          "sourcePath": "plugins/dsh-webui-fix-mobile-enter-newline/package.json",
+          "sha256": "0027f57d537143ba971b3d8f3a2b9e88fadf894d7ee0b5f94f5a0180d9631682"
+        }
+      ],
+      "archiveSha256": "80c97fa812ea30c0737875f93004527d90b3898669c8b56b195fdbf89d3c3b5a"
+    }
+  ]
+}
