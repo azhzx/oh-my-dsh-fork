@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A curated Web bundle for DeepSeek Harness 0.1.5-rc.3",
+  "description": "A curated Web bundle for DeepSeek Harness 0.2.0-rc.2",
   "license": "MIT",
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
@@ -25,9 +25,9 @@
   "dependencies": {
     "dsh-better-sidebar": "0.19.1",
     "dsh-codex": "0.3.0",
-    "@deepseek-ai/dsh-cmdline": "0.1.5-rc.3",
-    "@deepseek-ai/dsh-credentials": "0.1.5-rc.3",
-    "@deepseek-ai/schemastery": "3.18.1",
+    "@deepseek-ai/dsh-cmdline": "0.2.0-rc.2",
+    "@deepseek-ai/dsh-credentials": "0.2.0-rc.2",
+    "@deepseek-ai/schemastery": "3.18.2",
     "commander": "15.0.0",
     "yaml": "2.8.3"
   },
